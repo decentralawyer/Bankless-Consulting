@@ -1,0 +1,46 @@
+This is an initial attempt at drafting a solution to the question of "what entity form should we use". This is not a final set of recommendations, but rather a starting point to initiate a long-term conversation and ensure we are all on the same page to at least some extent.
+
+All feedback is welcome. 
+
+Overview
+
+In order to decide what kind of entity Bankless Consulting ("BC") will be, we need to fully understand the activities the entity will be undertaking. This is more complex than it initially appears, as BC will be undertaking a rather broad range of activities.
+
+	1. Consulting company
+		○ BC will be providing consulting services. This is probably the most straightforward item on the list.
+		
+	2. Incubator/accelerator
+		○ BC will be assisting internal BanklessDAO (the "DAO") members with identifying and developing ideas/concepts which align with BC's mission to deliver web3 products.
+		○ This means we will essentially be performing many of the functions of an incubator/accelerator, such as:
+			§ Making grants to projects
+			§ Taking ownership stakes in projects (through equity/tokens)
+			§ Taking advisory board seats in projects
+			
+	3. Venture capital firm
+		○ Investing in ventures is not BC's primary goal. However, the potential for taking stakes in web3 projects (see "Incubator/accelerator" above) automatically makes us something akin to a venture capital firm.
+		
+	4. Asset management
+		○ As discussed above, BC's treasury will accumulate a broad range of cryptoassets, exposing the organization to financial risk. 
+		○ Managing and diversifying this risk will require a team of people. It may make sense to house the treasury in a different entity for tax efficiency purposes.
+	
+	5. Startup
+		○ BC is a growth-focused entity trying to capture new markets. This means we are a startup.
+		○ This means we will attract outside investors. The entities we set up need to be capable of sustaining external investment to drive growth.
+		
+	6. DAO?
+		○ On some level, BC will be entwined with BanklessDAO. We will be relying on their guilds and talent, and sharing the BanklessDAO brand to drive our own market presence.
+		○ Are we a DAO?
+
+The main point here is that we will likely need to set up multiple entities as we grow. To minimize complexity, I propose we establish a two-layer governance system.
+
+Two-layer governance
+
+I propose that we set up a two-layer governance system over the entity. I expect our governance model to reflect the ethereum ecosystem, which has multiple layers, with layer 1 being the mainnet and multiple layers built onto it. 
+
+Our first layer ("Layer 1") will be the legal entity or entities. This will be either an LLC or a corporation. It will have directors, shareholders, and officers. Our Layer 1 documents (e.g. the constating documents of the corporation) will defer most of the decision-making to Layer 2.
+
+Our second layer ("Layer 2") will live on the blockchain. I recommend we utilize a permissioned-entry DAO governance framework like Moloch v2. We could build on top of this using a combination of Snapshot (for votes) and a multisig safe. 
+
+Using Layer 2, we could acquire tokens of other DAOs. We could also establish new sub-MolochDAOs for specific projects (e.g. for an incubator) to allow different groups of BC members to hold ownership of those projects.
+
+
